@@ -10,7 +10,7 @@ class Line(val position:Vector, val direction:Vector) {
 		// Gotta love wikipedia
 		// dist(X = A + tN, P) = ||(A-P)-((A-P).N)N||
 		// How did i forget linear algebra so quickly?!
-		// Here a = position, n = direction, p = point
+		// Here A = position, N = direction, P = point
 		((position - point) - (direction * ((position - point) dot direction))).magnitude
 	}
 
