@@ -10,11 +10,14 @@ import scala.swing.Panel
 class SimulatorPanel(sim:Simulator) extends Panel {
 
 	override def paintComponent(g: Graphics2D) {
-		for(particle:Particle <- sim.particles)
+		for(particle:Particle <- sim.particles) {
 			g.drawOval(particle.position.x.toInt,
 					   particle.position.y.toInt,
 					   particle.radius.toInt*2,
 					   particle.radius.toInt*2)
+		}
 	}
+
+
 
 }

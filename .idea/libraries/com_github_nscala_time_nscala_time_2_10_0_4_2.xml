@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="com.github.nscala-time:nscala-time_2.10:0.4.2" type="repository">
+    <properties maven-id="com.github.nscala-time:nscala-time_2.10:0.4.2" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/nscala-time_2.10-0.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scala-library-2.10.2-RC1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/joda-time-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/joda-convert-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -11,14 +11,14 @@ class Simulator {
 
 	var particles:Set[Particle] = ListSet.empty
 
-	val timeStep = 0.05
-
 	def addParticle(particle:Particle) = {
 		particles = particles + particle
 		this
 	}
 
-	def step() {
+	def stepAuto() {}
+
+	def step(timeStep:Double) {
 		// Move all the particles
 		particles.map { _.move(timeStep) } //Note to future self: remember _ is the implicit lambda argument, like Perl's $_
 
